@@ -1,9 +1,9 @@
-#Curso Impacta - Formação Java 
+# Curso Impacta - Formação Java 
 
-##Aula 2 - 18/01/202
+## Aula 2 - 18/01/202
 
-_Destaque_
+_Texto itálico_
 
-**Negrito**
+**Texto em Negrito**
 
 `Código`
