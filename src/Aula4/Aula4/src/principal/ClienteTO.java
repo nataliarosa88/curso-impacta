@@ -3,53 +3,42 @@
  */
 package principal;
 
-/**
- * @author linux
- *
- */
-public class ClienteTO {
+import Aula4.Aula4.src.principal.Impressao;
+
+public class ClienteTO implements Impressao {
 	private int codigo;
 	private String nome;
 	public static int contador = 0;
-	/**
-	 * 
-	 */
+
 	public ClienteTO() {
 		super();
 		contador = contador + 1;
 	}
-	/**
-	 * @param codigo
-	 * @param nome
-	 */
+
 	public ClienteTO(int codigo, String nome) {
 		super();
 		this.codigo = codigo;
 		this.nome = nome;
 		contador = contador + 1;
 	}
-	/**
-	 * @return the codigo
-	 */
+
 	public int getCodigo() {
+
 		return codigo;
 	}
-	/**
-	 * @param codigo the codigo to set
-	 */
+
 	public void setCodigo(int codigo) {
+
 		this.codigo = codigo;
 	}
-	/**
-	 * @return the nome
-	 */
+
 	public String getNome() {
+
 		return nome;
 	}
-	/**
-	 * @param nome the nome to set
-	 */
+
 	public void setNome(String nome) {
+
 		this.nome = nome;
 	}
 	
@@ -79,6 +68,12 @@ public class ClienteTO {
 			return false;
 		return true;
 	}
-	
 
+
+	@Override
+	public void imprimir() {
+		System.out.println(this.getCodigo());
+		System.out.println(this.getNome());
+
+	}
 }

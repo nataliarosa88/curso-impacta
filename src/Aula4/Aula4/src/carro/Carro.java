@@ -7,6 +7,7 @@ public class Carro {
 	private String cor;
 	
 	public Carro() {
+
 		super();
 	}
 
@@ -18,6 +19,7 @@ public class Carro {
 	}
 
 	public String getModelo() {
+
 		return modelo;
 	}
 
