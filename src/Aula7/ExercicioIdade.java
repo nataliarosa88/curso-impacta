@@ -9,12 +9,14 @@ public class ExercicioIdade {
         Scanner entrada = new Scanner(System.in);
         Calendar cal = GregorianCalendar.getInstance();
         int ano_atual = cal.get(Calendar.YEAR);
-        int ano_nascimento;
+        String ano_nascimento = "123";
+        int numeroConvertido;
+        numeroConvertido = Integer.parseInt(ano_nascimento);
 
 
         System.out.println("Digite o ano de nascimento: ");
-        ano_nascimento = entrada.nextInt();
-        int idade = ano_atual - ano_nascimento;
+        numeroConvertido = entrada.nextInt();
+        int idade = ano_atual - numeroConvertido;
 
         System.out.printf("Você tem " + idade);
 
