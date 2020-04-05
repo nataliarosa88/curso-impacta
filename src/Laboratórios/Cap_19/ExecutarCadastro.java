@@ -2,10 +2,6 @@ package Laboratórios.Cap_19;
 
 import java.util.Scanner;
 
-import br.com.impacta.java.dao.DAOException;
-import br.com.impacta.java.dao.FuncionarioDAO;
-import br.com.impacta.java.model.Funcionario;
-
 public class ExecutarCadastro {
 
     public static void main(String[] args) {

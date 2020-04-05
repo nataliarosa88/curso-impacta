@@ -1,4 +1,4 @@
-package curso
+package Aula1;
 
 public class Literais {
 
